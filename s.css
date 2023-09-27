@@ -1,0 +1,79 @@
+
+.navbar{
+    background-color: rgba(23, 32, 37, 0.897);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+.code {
+    width: 100%;
+    height: 500px;
+    color: black;
+    background-color: black;
+    outline-color:black;
+    caret-color: white;
+}
+
+::selection {
+    color: black;
+}
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.left_half {
+    width: 50%;
+    display: inline-block;
+    padding: 2%;
+}
+
+.right_half {
+    position: fixed;
+    overflow: scroll;
+    background-color: #eee;
+    padding: 2%;
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    display: inline-block;
+}
+
+@media (max-width: 450px) {
+    .left_half {
+        width: 100%;
+    }
+    .right_half {
+        width: 100%;
+        position: unset;
+    }
+}
+
+div > * {
+    vertical-align: top;  
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+.submit_btn {
+    display: inline-block;
+    width: 49%;
+}
+
+.final_submit_btn {
+    width: 49%;
+    display: inline-block;
+    text-align: end;
+}
+.p {
+     text-align: center;
+      color: white;
+      font-size: 30px;
+      margin-top: 0px;
+    }

@@ -1,0 +1,33 @@
+
+.logo_left {
+    margin: 1.2%;
+    width: 47%;
+    display: inline-table;
+    text-align: left;
+}
+
+.logo_left img {
+    width: 75px;
+    margin-left: 75px;
+}
+
+.logo_right {
+    margin: 1.2%;
+    width: 47%;
+    display: inline-table;
+    text-align: right;
+}
+
+.logo_right img {
+    margin-right: 75px;
+    width: 75px;
+}
+
+pre {
+    display: inline-block;
+    overflow: inherit;
+}
+
+.mt-5, .my-5 {
+    margin-top: 1rem!important;
+}
